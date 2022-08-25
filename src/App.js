@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import ImgShuffle from './components/ImgPuzzle';
+import './styles.css'
 
 function App() {
   return (
