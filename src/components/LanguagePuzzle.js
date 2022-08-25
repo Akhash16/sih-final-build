@@ -71,7 +71,6 @@ const LanguageSelect = () => {
     return (
         <>
            
-            
                 <div className="container puzzle-box">
                     {/* <h1>Language Puzzle</h1> */}
                     <h4>Chose a combination of letters in your preferred language</h4>

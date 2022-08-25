@@ -110,7 +110,7 @@ const ImgShuffle = () => {
 
     return (
         <>
-            <div class="container">
+            <div class="container1">
                 <div class="content">
                     <h4>Choose any number of tiles</h4>
                     <center><div id="wrapper" >

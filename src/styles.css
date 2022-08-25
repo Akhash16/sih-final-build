@@ -6,7 +6,7 @@ body {
   background: #f2f2f2;
 }
 
-.container  {
+.container1  {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -84,4 +84,20 @@ h3 {
     padding: 1px;
     background-clip: content-box;
     background-repeat: no-repeat;
+  }
+
+
+
+  .grid {
+    
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    
+  }
+  
+  .cell {
+    padding: 10px;
+    background-color: #ccc;
   }
