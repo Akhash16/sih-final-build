@@ -1,5 +1,6 @@
 import React from 'react'
 import PatternLock from "react-pattern-lock";
+import { Button } from '@mui/material';
 
 
 const PatternPuzzle = () => {
@@ -14,7 +15,7 @@ const PatternPuzzle = () => {
     };
     return (
         <>
-        <div class="container">
+        <div class="container1">
                 <div class="content">
             <PatternLock
                 path={path}
@@ -39,9 +40,7 @@ const PatternPuzzle = () => {
 
             <p>Pattern output: {path.join(", ")}</p>
 
-
-
-            <button className='btn btn-dark' onClick={reset}>click</button>
+            <Button  variant="contained" onClick={reset}>click</Button>
             </div></div>
         </>
     )

@@ -10,8 +10,8 @@ function App() {
   return (
     <div className="App">
       <>
-      {/* <PatternPuzzle/> */}
-       <ImgShuffle/>
+      <PatternPuzzle/>
+       {/* <ImgShuffle/> */}
       {/* <LanguageSelect/> */}
       </>
       

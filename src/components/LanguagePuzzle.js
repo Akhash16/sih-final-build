@@ -2,7 +2,7 @@ import React from "react";
 import ReactLanguageSelect from 'react-languages-select';
 import { useState } from "react";
 import 'react-languages-select/css/react-languages-select.css';
-import Card from '@mui/material/Card';
+import { Button } from '@mui/material';
 
 
 
@@ -15,11 +15,11 @@ const LanguageSelect = () => {
     // var en_C = "QWERTYUIOPASDFGHJKLZXCVBNM".split("")
     en = shuffle(en)
 
-    const ta = "கஙசஞடணதநனபமயரறலளழவஅஆஇஈஉஊாிீுூஎஏஐஒஓஎஏ".split("")
+    const ta = "கஙசஞடணதநனபமயரறலளழவஅஆஇஈஉஊா".split("")
 
-    const hi = "कखगघङचछजझञटठडढणतथदधनपफबभमअआइईउऊऋॠऌॡफ़".split("")
+    const hi = "कखगघङचछजझञटठडढणतथदधनपफबभम".split("")
 
-    const ko = "아악안알암압앙앞애액앵야얀약양얘어억언얼엄업엉에여역연열염엽영예오옥온올".split('')
+    const ko = "아악안알암압앙앞애액앵야얀약양얘어억언얼엄업엉에여".split('')
 
 
     const [letters, setLetters] = useState(en);
@@ -70,6 +70,8 @@ const LanguageSelect = () => {
 
     return (
         <>
+        <div class="container1">
+                <div class="content">
            
                 <div className="container puzzle-box">
                     {/* <h1>Language Puzzle</h1> */}
@@ -86,16 +88,17 @@ const LanguageSelect = () => {
                     {/* <h6>The selected language is <h4> {selectedLang} </h4> </h6> */}
                     <div className="container"><div className="grid">
 
-                        {letters.map(a => (<button className="btn btn-outline-primary cell" onClick={() => setSolution([...solution, a])} >{a}</button>))}
+                        {letters.map(a => (<Button variant="outlined" onClick={() => setSolution([...solution, a])} >{a}</Button>))}
                     </div></div>
 
                     <div className="container">
                         <h3>{solution.join("")}</h3>
                     </div>
 
-                    <button className="btn btn-primary" onClick={console.log("The data is : " + solution.join(""))}>Confirm</button>
+                    <Button variant="contained" onClick={console.log("The data is : " + solution.join(""))}>Confirm</Button>
 
-                </div>
+                </div></div></div>
+
 
         </>
 
