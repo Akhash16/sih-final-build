@@ -1,5 +1,4 @@
 import React, {useEffect,useState,useRef}from 'react'
-import Main from '../Main'
 function MakeWheel (segment,color){
     const width = (s) =>{
         return '50px'

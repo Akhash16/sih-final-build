@@ -2,6 +2,8 @@ import React, {useEffect,useState,useRef}from 'react'
 import './style/main.scss'
 import MakeWheel from './utils/MakeWheel.js'
 import {Button} from '@mui/material'
+import Image from './marker.png'
+
 
 
 const Main = () => {   
@@ -85,7 +87,7 @@ const Main = () => {
         <div>
         <div className="gamebar">
             <div className="gamebar-container">
-                <span className='marker'><img src="./marker.png" alt="arrow" /></span>
+                <span className='marker'><img src={Image} alt="arrow" /></span>
 
                 <div className="temp">
                     <div ref={wheelRef} className="wheel">
