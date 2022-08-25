@@ -1,6 +1,7 @@
 import React from "react";
 import jQuery from "jquery";
 import $ from 'jquery';
+import Button from "@mui/material/Button";
 
 const img = new Image();
 var width;
@@ -115,7 +116,7 @@ const ImgShuffle = () => {
                     <h4>Choose any number of tiles</h4>
                     <center><div id="wrapper" >
                     </div></center>
-                    <button className="btn btn-primary m-2" onClick={Generate}>Generate</button>
+                    <Button variant="contained" onClick={Generate}>Generate</Button>
                 </div>
                 <div class="flap"></div>
             </div>

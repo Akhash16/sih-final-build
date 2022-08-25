@@ -33,8 +33,9 @@ const PatternPuzzle = () => {
                 }}
                 style={{
                     margin: "0 auto",
-                    backgroundColor: '#dddddd',
-                    borderRadius: 30
+                    backgroundColor: 'grey',
+                    borderRadius: 30,
+                    
                 }}
             />
 
