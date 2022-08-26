@@ -11,7 +11,7 @@ const LanguageSelect = () => {
     var characters = "abcdefg".split("")
     console.log("the aray is " + characters);
 
-    var en = "qwertyuiopasdfghjklzxcvbnm".split("")
+    var en = "qwertyuiopasdfghjklzxcvbn".split("")
     // var en_C = "QWERTYUIOPASDFGHJKLZXCVBNM".split("")
     en = shuffle(en)
 

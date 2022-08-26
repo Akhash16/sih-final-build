@@ -12,7 +12,7 @@ var count = 0
 var pos = [];
 var value = []
 var sample = []
-img.src = 'https://picsum.photos/seed/picsum/200/300';
+img.src = 'https://picsum.photos/id/1027/300/300';
 img.onload = function () {
     var k = 0;
     width = this.width;
@@ -98,9 +98,10 @@ img.onload = function () {
 
 
 
+
 const ImgShuffle = () => {
 
-
+   
 
 
     var Generate = () => {
@@ -116,7 +117,8 @@ const ImgShuffle = () => {
                     <h4>Choose any number of tiles</h4>
                     <center><div id="wrapper" >
                     </div></center>
-                    <Button variant="contained" onClick={Generate}>Generate</Button>
+                    
+                    <Button variant="contained" onClick={Generate} >Generate</Button>
                 </div>
                 <div class="flap"></div>
             </div>
