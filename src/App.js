@@ -1,4 +1,4 @@
-
+import React from 'react';
 import './App.css';
 import ImgShuffle from './components/ImgPuzzle';
 import './styles.css'
@@ -10,14 +10,14 @@ import PolygonPuzzle from './components/PolygonPuzzle';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <>
       {/* <Main/> */}
       {/* <ImgShuffle/> */}
       {/* <PatternPuzzle/> */}
        
-      <LanguageSelect/>
-      {/* <PolygonPuzzle/> */}
+      
+      <PolygonPuzzle/>
       </>
       
       
