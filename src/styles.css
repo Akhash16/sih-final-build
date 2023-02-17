@@ -7,7 +7,7 @@ body {
   /* background: blue; */
 }
 
-.container1  {
+.container1 {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -79,65 +79,69 @@ h3 {
 } */
 
 #wrapper {
-    display:flex;
-    flex-wrap:wrap;
-  }
+  display: flex;
+  flex-wrap: wrap;
+}
 
-  .splitImg {
-    padding: 1px;
-    background-clip: content-box;
-    background-repeat: no-repeat;
-  }
+.splitImg {
+  padding: 1px;
+  background-clip: content-box;
+  background-repeat: no-repeat;
+}
 
 
 
-  .grid {
-    
-    display: grid;
-    gap: 5px;
-    grid-template-columns: repeat(5, 1fr);
-    justify-content: center;
-    
-  }
-  
-  .cell {
-    padding: 10px;
-    background-color: #ccc;
-  }
+.grid {
 
-  .up {
-    width: 0;
-    height: 0;
-    margin-left:100px;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 100px solid #BEBEBE;
-  }
-  .square{
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+
+}
+
+.cell {
+  padding: 10px;
+  background-color: #ccc;
+}
+
+.up {
+  width: 0;
+  height: 0;
+  margin-left: 100px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #BEBEBE;
+}
+
+.square {
   margin-top: -100px;
   margin-left: 100px;
   width: 100px;
   height: 100px;
   background: #BEBEBE;
   border-style: solid;
-  }
-  .down {
+}
+
+.down {
   width: 0;
   height: 0;
-  margin-left:100px;
+  margin-left: 100px;
   margin-top: 0px;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   border-top: 100px solid #BEBEBE;
-  }
-  .left {
+}
+
+.left {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
   border-right: 100px solid #BEBEBE;
   border-bottom: 50px solid transparent;
-  }
-  .right {
+}
+
+.right {
   width: 0;
   height: 0;
   margin-top: -100px;
@@ -145,20 +149,20 @@ h3 {
   border-top: 50px solid transparent;
   border-left: 100px solid #BEBEBE;
   border-bottom: 50px solid transparent;
-  
-  }
 
-  .poly{
-    text-align: center;
-    padding-left: 100px;
-  }
+}
 
-  .circle-picker{
-    width: 252px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 10px;
-    margin-left: 20px;
-    margin-bottom: -14px;
-    margin-top: 15px;
-  }
+.poly {
+  text-align: center;
+  padding-left: 100px;
+}
+
+.circle-picker {
+  width: 252px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-left: 20px;
+  margin-bottom: -14px;
+  margin-top: 15px;
+}
