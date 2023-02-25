@@ -1,0 +1,27 @@
+.full-screen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-home {
+    background-image: url(/src/assets/img/back.jpg);
+    background-size: cover;
+}
+
+.bg-home2 {
+    background-image: url(/src/assets/img/signUp2.jpg);
+    background-size: cover;
+}
+
+.bg-home3 {
+    background-image: url(/src/assets/img/back.png);
+    background-size: cover;
+}
+
+.bg-home4 {
+    /*background-color: #002B5B;*/
+    background-image: url(/src/assets/img/select2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
