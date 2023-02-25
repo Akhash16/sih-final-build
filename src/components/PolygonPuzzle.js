@@ -32,9 +32,11 @@ function PolygonPuzzle() {
         <div class="right"></div>
       <div class="down"></div>  
       <CirclePicker  className='circle-picker' color={color} onChange={updatedColor => setcolor(updatedColor.hex)}/>
-      <center><Button variant='contained' className='temp' onClick={()=>console.log(a)}>Confirm</Button></center>
+      
       
     </div>
+    <div className='button-css'><Button variant='contained' className='temp' onClick={()=>console.log(a)}>Confirm</Button></div>
+    
     </div></div>
   );
 }

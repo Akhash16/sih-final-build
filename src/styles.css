@@ -20,6 +20,7 @@ body {
   cursor: pointer;
   box-shadow: 0 0 20px 8px #d0d0d0;
   justify-content: center;
+
 }
 
 .content {
@@ -151,6 +152,7 @@ h3 {
   .poly{
     text-align: center;
     padding-left: 100px;
+    margin-top: -20px;
   }
 
   .circle-picker{
@@ -163,3 +165,6 @@ h3 {
     margin-top: 15px;
   }
   
+  .button-css{
+    margin-top: 15px;
+  }
