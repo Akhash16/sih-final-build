@@ -1,0 +1,59 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+html {
+    background: white;
+    color: white;
+}
+
+#wrapper {
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .splitImg {
+    padding: 1px;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+  }
+
+  .grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(6, 0.1fr);
+    justify-content: center;
+  }
+  
+  .cell {
+    padding: 10px;
+    background-color: #ccc;
+  }
+
+
+  .login {
+    min-height: 100vh;
+  }
+  .bg-image {
+    background-image: url('https://images.unsplash.com/photo-1634979149798-e9a118734e93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80');
+    background-size: cover;
+    background-position: center;
+  }
+  .login-heading {
+    font-weight: 500;
+  }
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
+  .invalid
+  {
+    border-color: red!important;
+  }
+
+.puzzle-box{
+  width: 600px;
+  height: 600px;
+  /* background-color: aqua; */
+}
